@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+
+
 
 
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -13,100 +14,340 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       </Head>
       
-      <main className="{styles.main} px-5 mx-5">
-        <section className="{styles.navbar}">
-          <nav class="navbar navbar-expand-lg bg-transparent border-bottom">
-            <div class="container-fluid">
+      <main className="px-lg-5 mx-lg-5 px-md-1 text-white ">
+      <section className="{styles.navbar}">
+            <div class="container border-bottom border-secondary">
+            <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
               <a class="navbar-brand fw-bolder fs-2" href="#">JEZH</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler border-0 shadow-none outline-0 p-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-border-width text-white" viewBox="0 0 16 16">
+  <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+</svg>
+              
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold px-2 mx-1 active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item px-2 mx-1">
-                    <a class="nav-link fw-bold" href="#">About</a>
-                  </li>
+                <ul class="navbar-nav mx-auto text-sm-centre">
                   <li class="nav-item px-2 mx-1 dropdown">
-                    <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Products
-                    </a>
-                    <ul class="dropdown-menu">
-                      
-                    </ul>
+
+
+
+
+
+
+
+  
+<a type="button" class="btn btn-transparent nav-link fw-bold text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Products
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill ps-1" viewBox="0 0 16 16">
+  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+</svg>
+</a>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl border-3 rounded-4 shadow">
+    <div class="modal-content rounded-4">
+      <div class="modal-header">
+        <h1 class="modal-title text-dark fs-5 fw-bolder" id="exampleModalLabel"><b>PRODUCTS</b></h1>
+        <button type="button" class="btn-close rounded-circle border border-black border-2 p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>Atoll HRMS SOFTWARE</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>TIME-TICK ATTENDANCE SYSYTEM</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>VENDOR MANAGEMENT SYSTEM</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>TRAKOON SCHOOL BUS SYSTEM</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>FLEET VECHICLE TRACKING</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>ENTERPRISE RESOURCE PLANNING</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
                   </li>
-                  <li class="nav-item px-2 mx-1 dropdown mx-2">
-                    <a class="nav-link fw-bold dropdown-toggle" data-bs-auto-close="outside" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {/* <li class="nav-item px-2 mx-1 dropdown">
+
+
+
+
+
+
+
+  
+<a type="button" class="btn btn-transparent nav-link fw-bold text-white" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+  Services
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill ps-1" viewBox="0 0 16 16">
+  <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+</svg>
+</a>
+
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-xl border-3 rounded-4 shadow">
+    <div class="modal-content rounded-4">
+      <div class="modal-header border-0 pe-3 pt-3 ps-0 pb-0">
+        <button type="button" class="btn-close text-white bg-white rounded-circle border border-secondary border-2 p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pt-0 mt-0">
+      <h1 class="modal-title text-dark fs-5 fw-bolder mb-3 border-bottom border-2" id="exampleModalLabel1"><b>DESIGN</b></h1>
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>GRAPHIC DESIGNING</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>UI/UX DESIGNING</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="modal-title text-dark fs-5 fw-bolder my-3 border-bottom border-2 " id="exampleModalLabel1"><b>DEVELOPMENT</b></h1>
+<div class="row row-cols-1 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>WEBSITE DEVELOPMENT</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>APP DEVELOPMENT</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>SOFTWARE DEVELOPMENT</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>E-COMMERCE DEVELOPMENT</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>AI & IoT RESEARCH</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>HOSTING</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="modal-title text-dark fs-5 fw-bolder my-3 border-bottom border-2 " id="exampleModalLabel1"><b>MARKETING</b></h1>
+<div class="row row-cols-1 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>DIGITAL MARKETING</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100">
+      <div class="card-body rounded-3 border border-2 shadow">
+        <h6 class="card-title fw-bolder"><b>IT SUPPORT</b></h6>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional</p>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                  </li> */}
+                  <li class="nav-item px-2 mx-1 dropdown">
+                    <a class="nav-link fw-bold text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Services
                     </a>
-                    <ul class="dropdown-menu mt-2 border">
-                      <li class="dropend">
-                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Design</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="" class="dropdown-item">3D Designing</a></li>
-                          <li><a href="" class="dropdown-item">Web Designing</a></li>
-                          <li><a href="" class="dropdown-item">Ui/UX Designing</a></li>
-                          <li><a href="" class="dropdown-item">Poster Designing</a></li>
-                          <li><a href="" class="dropdown-item">Circuit Designing</a></li>
-                        </ul>
+                    <ul class="dropdown-menu rounded-4 p-2 bg-body">
+                    <div>
+                    <li>
+                      <a href="" class="dropdown-item fw-bold rounded-2">
+                        Design
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+                      </a>
+                    </li>
+                    <hr class="dropdown-divider"/>
+                    <li>
+                      <a href="" class="dropdown-item fw-bold rounded-2">
+                        Development
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+                      </a>
                       </li>
-                      <li><hr class="dropdown-divider"/></li>
-                      <li class="dropend">
-                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Development</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="" class="dropdown-item">Web Development</a></li>
-                          <li><a href="" class="dropdown-item">App Development</a></li>
-                          <li><a href="" class="dropdown-item">Software Development</a></li>
-                          <li><a href="" class="dropdown-item">E-commerce Development</a></li>
-                          <li><a href="" class="dropdown-item">IOT Development</a></li>
-                        </ul>
-                      </li>
-                      <li><hr class="dropdown-divider"/></li>
-                      <li class="dropend">
-                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Marketing</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="" class="dropdown-item">Digital Marketing</a></li>
-                          <li><a href="" class="dropdown-item">A/B Testing</a></li>
-                          <li><a href="" class="dropdown-item">SEO Development</a></li>
-                        </ul>
-                      </li>
+                    <hr class="dropdown-divider"/>
+                    <li>
+                      <a href="" class="dropdown-item fw-bold rounded-2">
+                        Marketing
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+                      </a>
+                    </li>
+                    </div>
                     </ul>
                   </li>
-                  <li class="nav-item px-2 mx-1">
-                    <a class="nav-link fw-bold" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item px-2 mx-1">
-                    <a class="nav-link fw-bold" href="#">Career</a>
+                  <li class="nav-item px-2 mx-1 dropdown">
+                    <a class="nav-link fw-bold text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu rounded-4 p-2 bg-body">
+                    <div>
+                    <li>
+                      <a href="" class="dropdown-item fw-bold rounded-2">
+                        About Us 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+                      </a>
+                    </li>
+                    <hr class="dropdown-divider"/>
+                    <li>
+                      <a href="" class="dropdown-item fw-bold rounded-2">
+                        Blog
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+                      </a>
+                      </li>
+                    <hr class="dropdown-divider"/>
+                    <li>
+                      <a href="" class="dropdown-item fw-bold rounded-2">
+                        Career
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+                      </a>
+                    </li>
+                    </div>
+                    </ul>
                   </li>
                 </ul>
 
                 <ul class="navbar-nav mx-end">
                   <li class="nav-item">
-                    <a class="btn btn-dark rounded-pill fw-bold px-4" href="#">Contact</a>
+                    <a class="btn btn-light rounded-pill fw-bold px-4" href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
-            </div>
           </nav>
-        </section>
+          </div>
+      </section>
+
+
+
         <section>
         <div class="container my-5">
     <div class="row align-items-center">
       <div class="col-lg-8">
-        <h1 class="display-3 fw-bold lh-1 text-body-emphasis">Let's digitally <br/>transform your <br/>organization to <br/>next level</h1>
-        <p class="lead">We apply strategic thinking, design insight, and practicality to <br/>each of our projects with the goal of delivering success in both <br/>design and implementation.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-        <a class="btn btn-dark btn-lg rounded-pill pe-2 fw-bold ps-3" href="#">Get a Proposal <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right bg-white text-dark rounded-circle p-1 ms-2" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg></a>
-        </div>
+        <h1 class="display-3 fw-bold lh-1 text-white">Let's digitally <br/>transform your <br/>organization to <br/>next level</h1>
+        <p class="lead text-white py-2">We apply strategic thinking, design insight, and practicality to <br/>each of our projects with the goal of delivering success in both <br/>design and implementation.</p>
+
+<div class="d-flex">
+        <ul class="list-inline">
+        <a class="btn btn-light btn-lg rounded-pill pe-2 fw-bold " href="#">
+        <li class="list-inline-item">
+  <div class="p-2 w-100">
+  <span className="">Get a Proposal</span> 
+  </div>
+  </li>
+  <li class="list-inline-item">
+  <div class="p-2 flex-shrink-1">
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right bg-dark text-white rounded-circle p-1 " viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+  </div>
+  </li>
+  </a>
+  </ul>
+</div>
+
+        
       </div>
-      <div class="col-lg-4  p-0">
-          <img class="rounded-lg-3" src="https://uploads-ssl.webflow.com/6450b8115518edb92e39a41a/6450df7aacb6fe8db4992916_Business%20support-amico%20(1)-p-800.png" alt="" width="500"/>
+      <div class="col-lg-4 p-0">
+          <img class="rounded-lg-3 img-fluid" src="https://uploads-ssl.webflow.com/6450b8115518edb92e39a41a/6450df7aacb6fe8db4992916_Business%20support-amico%20(1)-p-800.png" alt="" width="500"/>
       </div>
     </div>
   </div>
@@ -133,70 +374,287 @@ export default function Home() {
         </section> */}
         <section>
         <div class="container px-4 py-5" id="featured-3">
-    <h2 class="pb-2 border-bottom"></h2>
+
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-3 fs-2 mb-3">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-award p-3" viewBox="0 0 16 16">
-  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-transparent bg-gradient rounded-3 fs-2 mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-buildings-fill p-3" viewBox="0 0 16 16">
+  <path d="M15 .5a.5.5 0 0 0-.724-.447l-8 4A.5.5 0 0 0 6 4.5v3.14L.342 9.526A.5.5 0 0 0 0 10v5.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V14h1v1.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V.5ZM2 11h1v1H2v-1Zm2 0h1v1H4v-1Zm-1 2v1H2v-1h1Zm1 0h1v1H4v-1Zm9-10v1h-1V3h1ZM8 5h1v1H8V5Zm1 2v1H8V7h1ZM8 9h1v1H8V9Zm2 0h1v1h-1V9Zm-1 2v1H8v-1h1Zm1 0h1v1h-1v-1Zm3-2v1h-1V9h1Zm-1 2h1v1h-1v-1Zm-2-4h1v1h-1V7Zm3 0v1h-1V7h1Zm-2-2v1h-1V5h1Zm1 0h1v1h-1V5Z"/>
 </svg>
         </div>
-        <h3 class="fs-2">Featured title</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-        <a href="#" class="icon-link">
-          Call to action
-          
-        </a>
+        <h3 class="fs-2">Effective service</h3>
+        <p>We believe in the act of money saving and we promise to make the process of developing your product cost efficient and more effective.</p>
       </div>
       <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-3 fs-2 mb-3">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-award p-3" viewBox="0 0 16 16">
-  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-transparent bg-gradient rounded-3 fs-2 mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-tools p-3" viewBox="0 0 16 16">
+  <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
 </svg>
         </div>
-        <h3 class="fs-2">Featured title</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-        <a href="#" class="icon-link">
-          Call to action
-          
-        </a>
+        <h3 class="fs-2">Strategical Support</h3>
+        <p>We provide you innovative,strategical and original assistantance based on your needs which we assure will give you complete contentment and satisfaction.</p>
       </div>
       <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient rounded-3 fs-2 mb-3">
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-award p-3" viewBox="0 0 16 16">
-  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
-  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-transparent bg-gradient rounded-3 fs-2 mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-people-fill p-3" viewBox="0 0 16 16">
+  <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
 </svg>
         </div>
-        <h3 class="fs-2">Featured title</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-        <a href="#" class="icon-link">
-          Call to action
-        
-        </a>
+        <h3 class="fs-2">Reliable assistance</h3>
+        <p>We guarantee that you will be provided with well grounded and definitive work by our skilled ,in - house developers and creators.</p>
       </div>
     </div>
   </div>
         </section>
+
+
+        <section className="px-2">
+        <h2 class="pb-2 fw-bolder border-bottom mb-4">Our Products</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-kanban text-white mb-2" viewBox="0 0 16 16">
+  <path d="M13.5 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h11zm-11-1a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-11z"/>
+  <path d="M6.5 3a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3zm-4 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3zm8 0a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3z"/>
+</svg>
+        <h6 class="card-title fw-bolder text-white"><b>ATOLL HRMS SOFTWARE</b></h6>
+        <p class="card-text text-white">
+        Cloud-based HR software automating employee management, attendance tracking, payroll, benefits, with user-friendly interface and powerful analytics.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-clock-fill text-white mb-2" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+      </svg>
+        <h6 class="card-title fw-bolder text-white"><b>TIME-TICK ATTENDANCE SYSYTEM</b></h6>
+        <p class="card-text text-white">
+        Our smart, AI-powered solution for close employee monitoring and real-time data automation, enhancing productivity and organization.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-shop-window text-white mb-2" viewBox="0 0 16 16">
+  <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
+</svg>
+        <h6 class="card-title fw-bolder text-white"><b>VENDOR MANAGEMENT SYSTEM</b></h6>
+        <p class="card-text text-white">
+        Technology platform for efficient vendor relationship management, including information tracking, contract management, and performance evaluation.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-truck-front-fill text-white mb-2" viewBox="0 0 16 16">
+        <path d="M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-5-2h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Z"/>
+      </svg>
+        <h6 class="card-title fw-bolder text-white"><b>TRAKOON SCHOOL BUS SYSTEM</b></h6>
+        <p class="card-text text-white">
+        School bus software providing real-time data on student transportation, monitoring ride details, accurate timing, attendance, and student count.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-car-front-fill text-white mb-2" viewBox="0 0 16 16">
+  <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+</svg>
+        <h6 class="card-title fw-bolder text-white"><b>FLEET VECHICLE TRACKING</b></h6>
+        <p class="card-text text-white">
+        Real-time fleet vehicle tracking system with GPS technology. Monitors location, performance, and offers alerts for improved efficiency and safety.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-building-fill-check text-white mb-2" viewBox="0 0 16 16">
+  <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"/>
+  <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+</svg>
+        <h6 class="card-title fw-bolder text-white"><b>ENTERPRISE RESOURCE PLANNING</b></h6>
+        <p class="card-text text-white">
+        Centralized platform fostering collaboration and data sharing, promoting communication and teamwork. Scales with business growth and complexity.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+        </section>
+
+        <section className="px-2 pt-5">
+        <h2 class="pb-2 fw-bolder border-bottom mb-4">Our Services</h2>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-4">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h1 class="fw-bold text-white">Our mission is to make our clients succeed and sustain</h1>
+        <p class="text-white lead">
+        At Jezh Technologies, we are not only committed to providing novel solutions but also to make our clients sustain and be among the elite in their domain.
+        </p>
+
+        <a href="#" class="btn btn-light btn-lg fw-bolder p-1"><span class="mx-2">Explore</span><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right bg-dark text-white rounded-3 p-1 ms-2" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></a>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>WEB DEVELOPMENT</b></h6>
+        <p class="card-text text-white">
+          
+Web development is crucial for businesses to establish a strong online presence, engage users, and drive growth.
+        </p>
+      </div>
+    </div>
+          </div>
+
+  <div class="col d-flex flex-column gap-2">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>APP DEVELOPMENT</b></h6>
+        <p class="card-text text-white">
+        App development empowers businesses to reach a wider audience, enhance customer engagement, and streamline operations efficiently.
+        </p>
+      </div>
+    </div>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>SOFTWARE DEVELOPMENT</b></h6>
+        <p class="card-text text-white">
+          
+Software development drives innovation, efficiency, and enables businesses to adapt and thrive in a rapidly evolving digital landscape.
+        </p>
+      </div>
+    </div>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>E-COMMERCE DEVELOPMENT</b></h6>
+        <p class="card-text text-white">
+        Boosts sales, expands customer reach, streamlines operations, and enhances customer convenience, driving business growth and success.
+        </p>
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>Ui/UX DESIGNING</b></h6>
+        <p class="card-text text-white">
+        Enhances user satisfaction, engagement, and usability, leading to better product adoption and business success.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>GRAPHIC DESIGNING</b></h6>
+        <p class="card-text text-white">Visual communication, brand identity, and aesthetic appeal in a concise, impactful, and engaging manner.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>DIGITAL MARKETING</b></h6>
+        <p class="card-text text-white">
+        Essential for reaching and engaging with target audiences, driving brand awareness, and achieving business growth.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>IT SUPPORT</b></h6>
+        <p class="card-text text-white">
+        Resolving technical issues, maintaining systems, and ensuring smooth operations for businesses.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>HOSTING</b></h6>
+        <p class="card-text text-white">
+        Shared hosting, VPS hosting, dedicated hosting, cloud hosting. Each offers different resources and scalability options for websites.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+        <h6 class="card-title fw-bolder text-white"><b>AI & IOT DEVELOPMENT</b></h6>
+        <p class="card-text text-white">
+        Crucial for enhancing operational efficiency, enabling data-driven decisions, and driving innovation in business processes.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+        </section>
+
+
 
         <section>
         <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Border hero with cropped image and shadows</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-        </div>
-      </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720"/>
-      </div>
-    </div>
+  <div class="p-5 text-center bg-body-tertiary rounded-4 mx-auto text-center">
+    <h1 class="text-dark fw-bolder">Download our company’s corporate profile and get to know more about us and what we do!</h1>
+    <p></p>
+    <p class="lead text-center">
+
+
+    <div class="d-flex justify-content-center">
+        <ul class="list-inline">
+        <a class="btn btn-dark btn-lg rounded-3 pe-2 fw-medium" href="#">
+        <li class="list-inline-item">
+  <div class="p-1 w-100">
+  <span className="">Download Brochure
+</span> 
   </div>
+  </li>
+  <li class="list-inline-item">
+  <div class="p-2 flex-shrink-1">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download text-white" viewBox="0 0 16 16">
+  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+</svg>
+  </div>
+  </li>
+  </a>
+  </ul>
+</div>
+
+    </p>
+  </div>
+</div>
         </section>
 
 
@@ -206,21 +664,71 @@ export default function Home() {
 
 
 
-        <div class="container">
-  <footer class="py-5">
+<div class="container">
+  <footer class="pt-5">
     <div class="row">
       <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h6 class="font-monospace border-bottom pb-2 me-3">Who we are</h6>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white fs-4">
+            About Us
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+            </a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white fs-4">
+            Blogs
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+            </a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white fs-4">
+            Career
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+            </a>
+          </li>
+         
         </ul>
       </div>
 
       <div class="col-6 col-md-2 mb-3">
+        <h6 class="font-monospace border-bottom pb-2 me-3">Services</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white fs-4">
+            Design
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+          </a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white fs-4">
+            Development
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+          </a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white fs-4">
+            Marketing
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+</svg>
+          </a>
+          </li>          
+        </ul>
+      </div>
+
+      {/* <div class="col-6 col-md-2 mb-3">
         <h5>Section</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
@@ -229,44 +737,39 @@ export default function Home() {
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
           <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
         </ul>
-      </div>
+      </div> */}
 
-      <div class="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-md-5 offset-md-1 mb-3">
-        <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
-          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label for="newsletter1" class="visually-hidden">Email address</label>
-            <input id="newsletter1" type="text" class="form-control" placeholder="Email address"/>
-            <button class="btn btn-primary" type="button">Subscribe</button>
+      <div class="col-md-5 offset-md-1 my-5 text-center">
+      <form>
+          <h4 className="fw-bold text-start ps-2 pb-2 text-white">Subscribe to our newsletter to know what's new and exciting from us.</h4>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2 bg-white rounded-3 border-0">
+            <input type="email" class="form-control border-0 shadow-none rounded-pill ps-4 py-3" placeholder="Email address"/>
+            <button class="btn btn-white outline-0 border-0 shadow-none text-white fw-bold px-3 m-1 bg-dark rounded-3" type="button">Subscribe</button>
           </div>
         </form>
       </div>
     </div>
 
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-      <p>© 2023 Company, Inc. All rights reserved.</p>
+      <p>© 2023 Jezh Technologies Pvt Ltd. All rights reserved.</p>
       <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-</svg></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+        <li class="">
+          <a class="link-body-emphasis" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook text-dark bg-white p-1 rounded-circle" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter text-dark bg-white p-1 rounded-circle" viewBox="0 0 16 16">
   <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
 </svg></a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram text-dark bg-white p-1 rounded-circle" viewBox="0 0 16 16">
   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-</svg></a></li>
+</svg>
+          </a>
+        </li>
       </ul>
     </div>
   </footer>
