@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
-import axios from 'axios';
+
 import Navbar from '@/components/Navbar.js';
 import Footer from '@/components/Footer.js';
 
