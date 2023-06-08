@@ -1,0 +1,10 @@
+@font-face {
+    font-family: mokoto;
+    src: url("../public/MokotoGlitch.otf") format("opentype");
+  }
+  body{
+      background-image: linear-gradient(125deg, #030219, #170c54, #5615a9);
+    }
+    .navbar-brand{
+      font-family: mokoto;
+    }
