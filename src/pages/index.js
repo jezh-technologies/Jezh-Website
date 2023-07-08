@@ -168,10 +168,10 @@ export default function Home() {
 
 
         <section className="px-2">
-        <h2 class="pb-2 fw-bolder border-bottom mb-4">Our Products</h2>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+        <h1 class="fw-bolder border-bottom border-4 mb-3 text-black py-1"><span class="px-3 py-1 rounded-top-3 bg-white mb-0">Our Products</span></h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
                 <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-kanban text-white mb-2" viewBox="0 0 16 16">
   <path d="M13.5 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h11zm-11-1a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-11z"/>
@@ -185,7 +185,7 @@ export default function Home() {
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-clock-fill text-white mb-2" viewBox="0 0 16 16">
         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
@@ -198,7 +198,7 @@ export default function Home() {
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
       <svg xmlns="http://www.w3.org/2000/svg"  width="45" height="45" fill="currentColor" class="bi bi-cart-check-fill text-white mb-2" viewBox="0 0 16 16">
   <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
@@ -211,7 +211,7 @@ export default function Home() {
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-truck-front-fill text-white mb-2" viewBox="0 0 16 16">
         <path d="M3.5 0A2.5 2.5 0 0 0 1 2.5v9c0 .818.393 1.544 1 2v2a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V14h6v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-2c.607-.456 1-1.182 1-2v-9A2.5 2.5 0 0 0 12.5 0h-9ZM3 3a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.9c0 .625-.562 1.092-1.17.994C10.925 7.747 9.208 7.5 8 7.5c-1.208 0-2.925.247-3.83.394A1.008 1.008 0 0 1 3 6.9V3Zm1 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm-5-2h2a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2Z"/>
@@ -224,7 +224,7 @@ export default function Home() {
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-car-front-fill text-white mb-2" viewBox="0 0 16 16">
   <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
@@ -237,7 +237,7 @@ export default function Home() {
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
       <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-building-fill-check text-white mb-2" viewBox="0 0 16 16">
   <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z"/>
@@ -254,24 +254,25 @@ export default function Home() {
         </section>
 
         <section className="px-2 pt-5">
-        <h2 class="pb-2 fw-bolder border-bottom mb-4">Our Services</h2>
-        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-4">
+        <h1 class="fw-bolder border-bottom border-4 mb-3 text-black py-1"><span class="px-3 py-1 rounded-top-3 bg-white mb-0">Our Services</span></h1>
+        <div class="row row-cols-1 row-cols-md-1 align-items-md-center g-5 py-4">
       <div class="col d-flex flex-column align-items-start gap-2">
-        <h1 class="fw-bold text-white">Our mission is to make our clients succeed and sustain</h1>
-        <p class="text-white lead">
+        <h2 class="fw-bold text-white ms-1 lh-1">Our mission is to make our clients succeed and sustain</h2>
+        <p class="text-white lead ms-1">
         At Jezh Technologies, we are not only committed to providing novel solutions but also to make our clients sustain and be among the elite in their domain.
         </p>
 
-        <a href="#" class="btn btn-light btn-lg fw-bolder p-1"><span class="mx-2">Explore</span><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right bg-dark text-white rounded-3 p-1 ms-2" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-          </svg></a>
       </div>
 
       <div class="col">
         <div class="row row-cols-1 row-cols-sm-2 g-4">
           <div class="col d-flex flex-column gap-2">
-          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-window-split text-white mb-2" viewBox="0 0 16 16">
+  <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
+  <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2Zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12ZM1 13V6h6.5v8H2a1 1 0 0 1-1-1Zm7.5 1V6H15v7a1 1 0 0 1-1 1H8.5Z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>WEB DEVELOPMENT</b></h6>
         <p class="card-text text-white">
           
@@ -282,8 +283,12 @@ Web development is crucial for businesses to establish a strong online presence,
           </div>
 
   <div class="col d-flex flex-column gap-2">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-tablet text-white mb-2" viewBox="0 0 16 16">
+  <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>APP DEVELOPMENT</b></h6>
         <p class="card-text text-white">
         App development empowers businesses to reach a wider audience, enhance customer engagement, and streamline operations efficiently.
@@ -293,8 +298,12 @@ Web development is crucial for businesses to establish a strong online presence,
           </div>
 
           <div class="col d-flex flex-column gap-2">
-          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-terminal text-white mb-2" viewBox="0 0 16 16">
+  <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+  <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>SOFTWARE DEVELOPMENT</b></h6>
         <p class="card-text text-white">
           
@@ -305,8 +314,11 @@ Software development drives innovation, efficiency, and enables businesses to ad
           </div>
 
           <div class="col d-flex flex-column gap-2">
-          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-cart4 text-white mb-2" viewBox="0 0 16 16">
+  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>E-COMMERCE DEVELOPMENT</b></h6>
         <p class="card-text text-white">
         Boosts sales, expands customer reach, streamlines operations, and enhances customer convenience, driving business growth and success.
@@ -318,37 +330,12 @@ Software development drives innovation, efficiency, and enables businesses to ad
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="col">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
-        <h6 class="card-title fw-bolder text-white"><b>Ui/UX DESIGNING</b></h6>
-        <p class="card-text text-white">
-        Enhances user satisfaction, engagement, and usability, leading to better product adoption and business success.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
-      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
-        <h6 class="card-title fw-bolder text-white"><b>GRAPHIC DESIGNING</b></h6>
-        <p class="card-text text-white">Visual communication, brand identity, and aesthetic appeal in a concise, impactful, and engaging manner.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
-      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
-        <h6 class="card-title fw-bolder text-white"><b>DIGITAL MARKETING</b></h6>
-        <p class="card-text text-white">
-        Essential for reaching and engaging with target audiences, driving brand awareness, and achieving business growth.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
-      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-headset text-white mb-2" viewBox="0 0 16 16">
+  <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>IT SUPPORT</b></h6>
         <p class="card-text text-white">
         Resolving technical issues, maintaining systems, and ensuring smooth operations for businesses.
@@ -357,8 +344,13 @@ Software development drives innovation, efficiency, and enables businesses to ad
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-hdd-stack text-white mb-2" viewBox="0 0 16 16">
+  <path d="M14 10a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h12zM2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2z"/>
+  <path d="M5 11.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM14 3a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+  <path d="M5 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>HOSTING</b></h6>
         <p class="card-text text-white">
         Shared hosting, VPS hosting, dedicated hosting, cloud hosting. Each offers different resources and scalability options for websites.
@@ -367,8 +359,11 @@ Software development drives innovation, efficiency, and enables businesses to ad
     </div>
   </div>
   <div class="col">
-    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent">
+    <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
       <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-cpu text-white mb-2" viewBox="0 0 16 16">
+  <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0zm-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3h-7zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+</svg>
         <h6 class="card-title fw-bolder text-white"><b>AI & IOT DEVELOPMENT</b></h6>
         <p class="card-text text-white">
         Crucial for enhancing operational efficiency, enabling data-driven decisions, and driving innovation in business processes.
@@ -376,7 +371,42 @@ Software development drives innovation, efficiency, and enables businesses to ad
       </div>
     </div>
   </div>
-</div>
+
+
+
+    </div>
+    <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2 pt-4">
+          <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-brush text-white mb-2" viewBox="0 0 16 16">
+  <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z"/>
+</svg>
+        <h6 class="card-title fw-bolder text-white"><b>GRAPHIC/ Ui/ UX DESIGNING</b></h6>
+        <p class="card-text text-white">
+        Enhances user satisfaction, engagement, and usability, leading to better product adoption and business success.
+        </p>
+      </div>
+    </div>
+          </div>
+
+  <div class="col d-flex flex-column gap-2 pt-4">
+  <div class="card rounded-4 h-100 text-bg-transparent bg-gradient bg-transparent border-0">
+      <div class="card-body rounded-4 border-transparent shadow text-bg-transparent bg-gradient bg-transparent">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-person-workspace text-white mb-2" viewBox="0 0 16 16">
+  <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+  <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
+</svg>
+        <h6 class="card-title fw-bolder text-white"><b>DIGITAL MARKETING</b></h6>
+        <p class="card-text text-white">
+        Essential for reaching and engaging with target audiences, driving brand awareness, and achieving business growth.
+        </p>
+      </div>
+    </div>
+          </div>
+        </div>
+      </div>
         </section>
 
 
