@@ -5,8 +5,8 @@ export default function Footer() {
     <div class="container">
   <footer class="pt-5">
     <div class="row">
-      <div class="col-6 col-md-2 mb-3">
-        <h6 class="font-monospace text-white border-bottom pb-2 me-3">Who we are</h6>
+      <div class="col-6 col-md-3 mb-3">
+        <h5 class="font-monospace text-white border-bottom pb-2 me-3">Who we are</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
             <a href="#" class="nav-link p-0 text-white fs-4">
@@ -36,11 +36,11 @@ export default function Footer() {
         </ul>
       </div>
 
-      <div class="col-6 col-md-2 mb-3">
-        <h6 class="font-monospace text-white border-bottom pb-2 me-3">Services</h6>
+      <div class="col-6 col-md-3 mb-3">
+        <h5 class="font-monospace text-white border-bottom pb-2 me-3">Services</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-white fs-4">
+            <a href="/design" class="nav-link p-0 text-white fs-4">
             Design
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -48,7 +48,7 @@ export default function Footer() {
           </a>
           </li>
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-white fs-4">
+            <a href="/development" class="nav-link p-0 text-white fs-4">
             Development
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -56,7 +56,7 @@ export default function Footer() {
           </a>
           </li>
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-white fs-4">
+            <a href="/marketing" class="nav-link p-0 text-white fs-4">
             Marketing
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>

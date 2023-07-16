@@ -46,13 +46,14 @@ function Contact() {
 
       <div class="container py-3">
 
-    <div class="px-lg-5 py-3  mb-4 bg-body-tertiary rounded-4">
-      <div class="container-fluid">
+    <div class="px-lg-5 py-3  mb-2 text-bg-transparent bg-gradient bg-transparent rounded-4 border border-secondary">
+      <div class="container">
         <div class="row align-items-md-stretch">
-        <div class="col-md-8 d-flex align-items-center">
+        <div class="col-md-8 d-flex align-items-center ">
           <div class="">
-          <h1 class="display-6 fw-bolder">Contact Us</h1>
-        <p class="col-md-8 fs-5 fw-medium">For general queries, sales and partnerships please drop a email anytime and we will reach you.</p>
+          <h1 class="fw-bolder border-bottom border-2 border-secondary mb-3 text-black py-1"><span class="py-1 rounded-top-3 text-white  mb-0 font-monospace">Contact Us</span></h1>
+
+        <p class="col-md-8 fs-5 fw-medium text-white">For general queries, sales and partnerships please drop a email anytime and we will reach you.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start pt-2">
         <a class="btn bg-black text-white text-start btn-lg rounded-3 me-md-2" href="mailto:info@jezhtechnologies.com">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill me-2 mb-1" viewBox="0 0 16 16">
@@ -83,12 +84,12 @@ function Contact() {
     </div>
 
     <div class="row align-items-md-stretch">
-      <div class="col-md-6">
-        <div class="h-100 p-5 bg-white rounded-4">
-          <h1 className="fw-bolder">Office Location</h1>
+      <div class="col-md-6 mt-3 ">
+        <div class="h-100 p-5 text-bg-transparent bg-gradient bg-transparent text-white rounded-4">
+          <h1 className="fw-bolder pb-1 border border-2 border-top-0 border-start-0 border-end-0 font-monospace">Office Location</h1>
           <p className="fs-4 fw-medium">Have an idea? Let's grab a coffee and make a revolution.</p>
           <address className="fs-4 fw-semibold">
-    <strong>JEZH TECHNOLOGIES</strong><br/>
+    <strong class=" pb-1 border border-2 border-top-0 border-start-0 border-end-0">JEZH TECHNOLOGIES</strong><br/><p></p>
     Sri Sai Complex, Court Road,<br/>
     Vepamoodu Junction, Nagercoil,<br/>
     Kanyakumari, Tamil Nadu,<br/>
@@ -100,8 +101,8 @@ function Contact() {
           
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="h-100 p-3 bg-body-tertiary border rounded-3 ratio ratio-4x3">
+      <div class="col-md-6 mt-3">
+        <div class="h-100 p-3 text-bg-transparent bg-gradient bg-transparent border-0 rounded-3 ratio ratio-4x3">
         <iframe className="rounded-4 img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d739.8872091509062!2d77.43067399307816!3d8.182330973528224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f1d9f6f28009%3A0xfbc653de52850d62!2sJabz%20Technologies%20Private%20Limited!5e1!3m2!1sen!2sin!4v1685065256487!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
