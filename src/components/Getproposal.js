@@ -216,7 +216,7 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 
-<a href={"https://wa.me/918680818832?text="+encodeURIComponent(
+<a href={"https://wa.me/919385722102?text="+encodeURIComponent(
 `
 Name : ${name}
 E-mail : ${mail}
