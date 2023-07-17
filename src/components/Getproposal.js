@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { use, useState } from 'react'
 
 function Getproposal() {
+  const[name,setname]=useState()
+  const[mail,setmail]=useState()
+  const[company,setcompany]=useState()
+  const[phone,setphone]=useState()
+  const[desc,setdesc]=useState()
+  const[type,settype]=useState()
+
   return (
     <div>
       <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -55,7 +62,7 @@ Answer a few short questions and we'll get in touch with you!</p>
     <p class="text-black fs-3 lead fw-bold">
     First up, what is your name? *
     <div class="mb-4 input-group-lg">
-  <input type="email" class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="text" onChange={(e)=>{setname(e.target.value)}} class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
@@ -80,7 +87,7 @@ Answer a few short questions and we'll get in touch with you!</p>
     <p class="text-black fs-3 lead fw-bold">
     Great. Now what's your email ?
     <div class="mb-4 input-group-lg">
-  <input type="email" class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="email" onChange={(e)=>{setmail(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
@@ -105,7 +112,7 @@ Answer a few short questions and we'll get in touch with you!</p>
     <p class="text-black fs-3 lead fw-bold">
     Super. Now what's your company name ?
     <div class="mb-4 input-group-lg">
-  <input type="email" class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="text" onChange={(e)=>{setcompany(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
@@ -130,7 +137,7 @@ Answer a few short questions and we'll get in touch with you!</p>
     <p class="text-black fs-3 lead fw-bold">
     And your phone number (preferably with WhatsApp)?*
     <div class="mb-4 input-group-lg">
-  <input type="email" class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="number" onChange={(e)=>{setphone(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
@@ -155,7 +162,7 @@ Answer a few short questions and we'll get in touch with you!</p>
     <p class="text-black fs-3 lead fw-bold">
     Tell me one or two lines about your project?*
     <div class="mb-4 input-group-lg">
-  <input type="email" class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="text" onChange={(e)=>{setdesc(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
@@ -183,25 +190,25 @@ Answer a few short questions and we'll get in touch with you!</p>
   </blockquote>
 </figure>
     <div class="form-check input-group-lg">
-  <input class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
+  <input onChange={()=>{settype("web")}}  class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
   <label class="form-check-label text-black" for="flexCheckDefault">
     Website
   </label>
 </div>
 <div class="form-check input-group-lg">
-  <input class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
+  <input onChange={()=>{settype("App-Android")}}   class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
   <label class="form-check-label text-black" for="flexCheckDefault">
     Android Application
   </label>
 </div>
 <div class="form-check input-group-lg">
-  <input class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
+  <input onChange={()=>{settype("App-IOS")}}   class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
   <label class="form-check-label text-black" for="flexCheckDefault">
     IOS Application
   </label>
 </div>
 <div class="form-check input-group-lg mb-4">
-  <input class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
+  <input onChange={()=>{settype("software")}}   class="form-check-input input-lg" type="checkbox" value="" id="flexCheckDefault"/>
   <label class="form-check-label text-black" for="flexCheckDefault">
     Software
   </label>
@@ -209,7 +216,15 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle10" data-bs-toggle="modal">OK</button>
+<a href={"https://wa.me/918680818832?text="+encodeURIComponent(
+`
+Name : ${name}
+E-mail : ${mail}
+Company name: ${company}
+Phone : ${phone}
+Decription : ${desc}
+Type : ${type}
+`)} class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle10" data-bs-toggle="modal">OK</a>
 
       </div>
 
