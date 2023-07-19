@@ -30,11 +30,8 @@ export default function Navbar() {
 
 
 
-<a type="button" class="nav-link fw-bold text-white fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<a class="nav-link fw-bold text-white dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 Products
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill ps-1" viewBox="0 0 16 16">
-<path d="M7.247 11.14 2.451 5.658C1.88 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-</svg>
 </a>
 
 
@@ -282,7 +279,7 @@ Services
               </li>
             <hr class="dropdown-divider"/>
             <li>
-              <a href="" class="dropdown-item fw-bold rounded-2">
+              <a href="/marketingjl 'bub" class="dropdown-item fw-bold rounded-2">
                 Marketing
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>

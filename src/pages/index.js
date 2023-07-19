@@ -37,7 +37,7 @@ export default function Home() {
         
       </div>
       <div class="col-lg-4 p-0">
-          <img class="rounded-lg-3 img-fluid" src="https://uploads-ssl.webflow.com/6450b8115518edb92e39a41a/6450df7aacb6fe8db4992916_Business%20support-amico%20(1)-p-800.png" alt="" width="500"/>
+          <img class="rounded-lg-3 img-fluid" src="https://uploads-ssl.webflow.com/6450b8115518edb92e39a41a/64b507ec4afccad4108edef0_Helping%20a%20partner-rafiki.png" alt="" width="500"/>
       </div>
     </div>
   </div>

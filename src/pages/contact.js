@@ -85,7 +85,7 @@ function Contact() {
 
     <div class="row align-items-md-stretch">
       <div class="col-md-6 mt-3 ">
-        <div class="h-100 p-5 text-bg-transparent bg-gradient bg-transparent text-white rounded-4">
+        <div class="h-100 p-5 bg-white text-black rounded-4">
           <h1 className="fw-bolder pb-1 border border-2 border-top-0 border-start-0 border-end-0 font-monospace">Office Location</h1>
           <p className="fs-4 fw-medium">Have an idea? Let's grab a coffee and make a revolution.</p>
           <address className="fs-4 fw-semibold">
@@ -94,8 +94,8 @@ function Contact() {
     Vepamoodu Junction, Nagercoil,<br/>
     Kanyakumari, Tamil Nadu,<br/>
     India-629001.<br/>
-    <abbr title="Phone">Phone:</abbr> 93857 22102 <br/>
-    <abbr title="Phone">Landline:</abbr> 04652-288007
+    93857 22102 <br/>
+    04652-288007
 
   </address>
           

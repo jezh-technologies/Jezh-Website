@@ -10,6 +10,7 @@ function Getproposal() {
 
   return (
     <div>
+
       <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-xl">
     <div class="modal-content">
@@ -134,6 +135,17 @@ Answer a few short questions and we'll get in touch with you!</p>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
+  <form>
+  <div class="input-group">
+    <input type="tel" class="form-control"/>
+    <span class="input-group-addon">Tel</span>
+  </div>
+  <br/>
+  <div class="input-group">
+    <input type="tel" class="form-control"/>
+    <span class="input-group-addon">Tel</span>
+  </div>
+</form>
     <p class="text-black fs-3 lead fw-bold">
     And your phone number (preferably with WhatsApp)?*
     <div class="mb-4 input-group-lg">

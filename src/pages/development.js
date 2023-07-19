@@ -64,8 +64,8 @@ function Development() {
       <div class="card text-bg-transparent text-white bg-gradient bg-transparent rounded-4 rounded-bottom-0 border border-bottom-0 border-secondary mb-3">
   
   <div class="card-body ">
-    <h3 class="card-title fw-bolder">Creative Excellence</h3>
-    <p class="card-text fs-5">Our design team excels in delivering innovative solutions that captivate and inspire. Choose us for unparalleled creativity!</p>
+    <h3 class="card-title fw-bolder">Expert Solutions</h3>
+    <p class="card-text fs-5">Delivering cutting-edge software solutions tailored to your needs. Our experienced team ensures high-quality results.</p>
   </div>
 </div>
     </div>
@@ -73,8 +73,8 @@ function Development() {
       <div class="card text-bg-transparent text-white bg-gradient bg-transparent rounded-4 rounded-bottom-0 border border-bottom-0 border-secondary mb-3">
   
   <div class="card-body ">
-    <h3 class="card-title fw-bolder">Customer Satisfaction</h3>
-    <p class="card-text fs-5">Your satisfaction is our priority. Choose us for exceptional service and personalized design solutions that exceed your expectations.</p>
+    <h3 class="card-title fw-bolder">Seamless Integration</h3>
+    <p class="card-text fs-5">Effortless integration with your existing systems. Streamline operations and boost efficiency with our software services.</p>
   </div>
 </div>
     </div>
@@ -82,8 +82,8 @@ function Development() {
       <div class="card text-bg-transparent text-white bg-gradient bg-transparent rounded-4 rounded-bottom-0 border border-bottom-0 border-secondary mb-3">
   
   <div class="card-body ">
-    <h3 class="card-title fw-bolder">Seamless Collaboration</h3>
-    <p class="card-text fs-5"> Experience the power of seamless collaboration with our design experts. Choose us for efficient teamwork and flawless execution.</p>
+    <h3 class="card-title fw-bolder">Customer Focus</h3>
+    <p class="card-text fs-5">Putting you first. We prioritize your satisfaction with excellent support and personalized solutions..</p>
   </div>
 </div>
     </div>
@@ -94,7 +94,7 @@ function Development() {
 
    <section class="py-4">
    <div class="container text-start py-5">
-    <h1 class="fw-bolder mb-3">Development services we provide</h1>
+    <h1 class="fw-bolder mb-3">Software services we provide</h1>
     <h4 class="fw-normal"> Unlock the potential of great design with our tailored services. Elevate your brand, engage your audience, and achieve lasting success with our design solutions.</h4>
 
     <div class="container text-start text-bg-transparent bg-gradient bg-transparent border border-secondary rounded-4 mt-5 p-3">

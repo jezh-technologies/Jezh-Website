@@ -65,8 +65,8 @@ function Marketing() {
       <div class="card text-bg-transparent text-white bg-gradient bg-transparent rounded-4 rounded-bottom-0 border border-bottom-0 border-secondary mb-3">
   
   <div class="card-body ">
-    <h3 class="card-title fw-bolder">Creative Excellence</h3>
-    <p class="card-text fs-5">Our design team excels in delivering innovative solutions that captivate and inspire. Choose us for unparalleled creativity!</p>
+    <h3 class="card-title fw-bolder">Amplify Your Reach</h3>
+    <p class="card-text fs-5"> Expand your brand's reach with our digital mastery. Boost visibility and engage your audience effectively.</p>
   </div>
 </div>
     </div>
@@ -74,8 +74,8 @@ function Marketing() {
       <div class="card text-bg-transparent text-white bg-gradient bg-transparent rounded-4 rounded-bottom-0 border border-bottom-0 border-secondary mb-3">
   
   <div class="card-body ">
-    <h3 class="card-title fw-bolder">Customer Satisfaction</h3>
-    <p class="card-text fs-5">Your satisfaction is our priority. Choose us for exceptional service and personalized design solutions that exceed your expectations.</p>
+    <h3 class="card-title fw-bolder">Unleash Your Potential</h3>
+    <p class="card-text fs-5">Ignite growth with our marketing expertise. Maximize your brand's potential and achieve remarkable success.</p>
   </div>
 </div>
     </div>
@@ -83,8 +83,8 @@ function Marketing() {
       <div class="card text-bg-transparent text-white bg-gradient bg-transparent rounded-4 rounded-bottom-0 border border-bottom-0 border-secondary mb-3">
   
   <div class="card-body ">
-    <h3 class="card-title fw-bolder">Seamless Collaboration</h3>
-    <p class="card-text fs-5"> Experience the power of seamless collaboration with our design experts. Choose us for efficient teamwork and flawless execution.</p>
+    <h3 class="card-title fw-bolder">Embrace Transformation</h3>
+    <p class="card-text fs-5">Embrace change and elevate your brand to new heights. Experience transformative marketing strategies for lasting impact.</p>
   </div>
 </div>
     </div>
