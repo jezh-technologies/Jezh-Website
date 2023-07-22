@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <section className="{styles.navbar}">
+    <section className="{styles.navbar} animate__animated animate__slideInDown">
     <div class="container">
 
 

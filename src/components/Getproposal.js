@@ -10,13 +10,13 @@ function Getproposal() {
 
   return (
     
-    <div className="{styles.navbar}">
+    <div className="">
 
       <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <h1><span class="navbar-brand text-black" style={{}}>JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border border-secondary p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body text-center">
@@ -35,7 +35,7 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
 
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -59,7 +59,7 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -85,7 +85,7 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -111,7 +111,7 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -137,7 +137,7 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -162,7 +162,7 @@ Answer a few short questions and we'll get in touch with you!</p>
     </p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-3" data-bs-target="#exampleModalToggle8" data-bs-toggle="modal">OK</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-5" data-bs-target="#exampleModalToggle8" data-bs-toggle="modal">OK</button>
 
       </div>
 
@@ -174,7 +174,7 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -200,14 +200,14 @@ Answer a few short questions and we'll get in touch with you!</p>
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
     <p class="text-black fs-2 lead fw-bold">
-    What modules do you need for your project?*
+    What modules do you need for your project? <span class="text-danger">*</span>
     </p>
   </blockquote>
 </figure>
@@ -238,7 +238,7 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 
-<a href={"https://wa.me/919385722102?text="+encodeURIComponent(
+<a  data-action="open" href={`https://wa.me/919385722102?text=${encodeURIComponent(
 `
 Name : ${name}
 E-mail : ${mail}
@@ -246,7 +246,9 @@ Company name: ${company}
 Phone : ${phone}
 Decription : ${desc}
 Type : ${type}
-`)} class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle10" data-bs-toggle="modal">OK</a>
+`)}`}target="_blank"
+
+ class="btn btn-black btn-lg bg-black text-white fw-medium fs-5" >OK</a>
 
       </div>
 
@@ -258,7 +260,7 @@ Type : ${type}
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-      <h1><span class="nav-brand text-black">JEZH</span></h1>
+      <h1><span class="navbar-brand text-black">JEZH</span></h1>
         <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
