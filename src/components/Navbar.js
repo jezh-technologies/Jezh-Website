@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <section className="{styles.navbar}">
-    <div class="container border-bottom border-secondary">
+    <div class="container">
 
 
 
@@ -36,16 +36,20 @@ Products
 
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-xl border-3 rounded-4 shadow">
+<div class="modal-dialog modal-fullscreen border-3 rounded-4 shadow">
 <div class="modal-content rounded-4">
 <div class="modal-header">
-<h1 class="modal-title text-dark fs-5 fw-bolder" id="exampleModalLabel"><b>PRODUCTS</b></h1>
-<button type="button" class="btn-close rounded-circle border border-black border-2 p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+<h1 class="modal-title text-dark fs-5 fw-bolder px-3" id="exampleModalLabel">
+<span class="navbar-brand text-black fw-bolder text-black fs-2">JEZH</span>
+<div class="vr text-black border border-black fs-2"></div>
+<span class="lead fw-medium fs-1 px-3 font-monospace ">PRODUCTS</span>
+</h1>
+<button type="button" class="btn-close rounded-circle border border-black border-2 p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
 <div class="modal-body">
 <div class="row row-cols-1 row-cols-md-3 g-3">
 <div class="col">
-  <a href="" className="text-decoration-none">
+  <a href="/atoll-hrms-software" className="text-decoration-none">
   <div class="card rounded-4 h-100 border-0">
 <div class="card-body rounded-3 bg-body">
 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-kanban text-dark mb-2" viewBox="0 0 16 16">
@@ -59,7 +63,7 @@ Products
   </a>
 </div>
 <div class="col">
-<a href="" className="text-decoration-none">
+<a href="/time-tick-attendance-system" className="text-decoration-none">
 <div class="card rounded-4 h-100 border-0">
 <div class="card-body rounded-3 bg-body">
 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-clock-fill text-dark mb-2" viewBox="0 0 16 16">
@@ -261,7 +265,7 @@ Services
             <ul class="dropdown-menu rounded-4 p-2 bg-body">
             <div>
             <li>
-              <a href="/design" class="dropdown-item fw-bold rounded-2">
+              <a href="/design" class="dropdown-item fw-bold rounded-2 fs-5">
                 Design
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -270,7 +274,7 @@ Services
             </li>
             <hr class="dropdown-divider"/>
             <li>
-              <a href="/development" class="dropdown-item fw-bold rounded-2">
+              <a href="/development" class="dropdown-item fw-bold rounded-2 fs-5">
                 Development
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -279,7 +283,7 @@ Services
               </li>
             <hr class="dropdown-divider"/>
             <li>
-              <a href="/marketingjl 'bub" class="dropdown-item fw-bold rounded-2">
+              <a href="/marketing" class="dropdown-item fw-bold rounded-2 fs-5">
                 Marketing
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -293,10 +297,10 @@ Services
             <a class="nav-link fw-bold text-white dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Company
             </a>
-            <ul class="dropdown-menu rounded-4 p-2 bg-body">
+            <ul class="dropdown-menu rounded-4 p-2 bg-body mb-3">
             <div>
             <li>
-              <a href="/about" class="dropdown-item fw-bold rounded-2">
+              <a href="/about" class="dropdown-item fw-bold rounded-2 fs-5">
                 About Us 
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -305,7 +309,7 @@ Services
             </li>
             <hr class="dropdown-divider"/>
             <li>
-              <a href="" class="dropdown-item fw-bold rounded-2">
+              <a href="" class="dropdown-item fw-bold rounded-2 fs-5">
                 Blog
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -314,7 +318,7 @@ Services
               </li>
             <hr class="dropdown-divider"/>
             <li>
-              <a href="" class="dropdown-item fw-bold rounded-2">
+              <a href="" class="dropdown-item fw-bold rounded-2 fs-5">
                 Career
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>

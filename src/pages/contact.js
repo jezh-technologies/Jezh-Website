@@ -46,14 +46,14 @@ function Contact() {
 
       <div class="container py-3">
 
-    <div class="px-lg-5 py-3  mb-2 text-bg-transparent bg-gradient bg-transparent rounded-4 border border-secondary">
+    <div class="px-lg-5 py-3  mb-2 bg-white text-black rounded-4 border border-secondary">
       <div class="container">
         <div class="row align-items-md-stretch">
         <div class="col-md-8 d-flex align-items-center ">
           <div class="">
-          <h1 class="fw-bolder border-bottom border-2 border-secondary mb-3 text-black py-1"><span class="py-1 rounded-top-3 text-white  mb-0 font-monospace">Contact Us</span></h1>
+          <h1 class="fw-bolder border-bottom border-2 border-secondary mb-3 text-black py-1"><span class="py-1 rounded-top-3">Contact Us</span></h1>
 
-        <p class="col-md-8 fs-5 fw-medium text-white">For general queries, sales and partnerships please drop a email anytime and we will reach you.</p>
+        <p class="col-md-8 fs-5 fw-medium text-black">For general queries, sales and partnerships please drop a email anytime and we will reach you.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start pt-2">
         <a class="btn bg-black text-white text-start btn-lg rounded-3 me-md-2" href="mailto:info@jezhtechnologies.com">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill me-2 mb-1" viewBox="0 0 16 16">
@@ -89,7 +89,7 @@ function Contact() {
           <h1 className="fw-bolder pb-1 border border-2 border-top-0 border-start-0 border-end-0 font-monospace">Office Location</h1>
           <p className="fs-4 fw-medium">Have an idea? Let's grab a coffee and make a revolution.</p>
           <address className="fs-4 fw-semibold">
-    <strong class=" pb-1 border border-2 border-top-0 border-start-0 border-end-0">JEZH TECHNOLOGIES</strong><br/><p></p>
+    <strong class=" pb-1 border border-2 border-top-0 border-start-0 border-end-0">JEZH TECHNOLOGIES PVT LTD</strong><br/><p></p>
     Sri Sai Complex, Court Road,<br/>
     Vepamoodu Junction, Nagercoil,<br/>
     Kanyakumari, Tamil Nadu,<br/>

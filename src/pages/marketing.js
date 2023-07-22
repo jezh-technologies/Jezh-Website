@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Getproposal from '@/components/Getproposal'
 
 function Marketing() {
   return (
@@ -19,9 +20,9 @@ function Marketing() {
         <Navbar/>
 <nav class="text-bg-transparent text-black bg-gradient bg-white rounded rounded-top-0 rounded-bottom-2">
   <ol class="breadcrumb p-3">
-    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold" href="#">Home</a></li>
-    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold" href="#">Services</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="border border-top-0 border-start-0 border-end-0 border-secondary fw-bolder">Marketing</span></li>
+    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Home</a></li>
+    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Services</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="border border-top-0 border-start-0 border-end-0 border-secondary fw-bolder fs-5">Marketing</span></li>
   </ol>
 </nav>
         <section>
@@ -29,9 +30,7 @@ function Marketing() {
     <div class="row align-items-center">
       <div class="col-lg-8">
         <h1 class="display-3 fw-bold lh-2 text-white mb-4">Amplify Your Business Success with Our Strategic Marketing Solutions</h1>
-        <button class="btn btn-light p-1 btn-lg fw-bolder mt-2"><span class="p-3">Get a Proposal</span><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right bg-dark text-white rounded-3 p-2 " viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-          </svg></button>
+        <Getproposal/>
 
         
       </div>

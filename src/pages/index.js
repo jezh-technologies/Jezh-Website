@@ -27,7 +27,7 @@ export default function Home() {
 
 
         <section>
-        <div class="container my-5">
+        <div class="container my-5 align-items-center">
     <div class="row align-items-center">
       <div class="col-lg-8">
         <h1 class="display-3 fw-bold lh-1 text-white">Let's digitally <br/>transform your <br/>organization to <br/>next level</h1>

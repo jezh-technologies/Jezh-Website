@@ -20,9 +20,9 @@ function Development() {
         <Navbar/>
         <nav class="text-bg-transparent text-black bg-gradient bg-white rounded rounded-top-0 rounded-bottom-2">
   <ol class="breadcrumb p-3">
-    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold" href="#">Home</a></li>
-    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold" href="#">Services</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="border border-top-0 border-start-0 border-end-0 border-secondary fw-bolder">Development</span></li>
+    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Home</a></li>
+    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Services</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="border border-top-0 border-start-0 border-end-0 border-secondary fw-semibold fs-5">Development</span></li>
   </ol>
 </nav>
         <section>
@@ -93,8 +93,8 @@ function Development() {
 
 
    <section class="py-4">
-   <div class="container text-start py-5">
-    <h1 class="fw-bolder mb-3">Software services we provide</h1>
+   <div class="container text-center py-5">
+    <h1 class="fw-bolder mb-3"><a>Software</a> services we provide</h1>
     <h4 class="fw-normal"> Unlock the potential of great design with our tailored services. Elevate your brand, engage your audience, and achieve lasting success with our design solutions.</h4>
 
     <div class="container text-start text-bg-transparent bg-gradient bg-transparent border border-secondary rounded-4 mt-5 p-3">

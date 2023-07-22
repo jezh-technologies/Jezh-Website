@@ -9,40 +9,44 @@ function Getproposal() {
   const[type,settype]=useState()
 
   return (
-    <div>
+    
+    <div className="{styles.navbar}">
 
       <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-dialog-centered modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border border-secondary p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body text-center">
       <h1 class="display-1 text-black fw-bolder">Get in Touch</h1>
-        <p class="lead text-black fs-3">Got a great project idea? Or want to transform your business?
+      <div class="container">
+        <p class="lead text-black fs-3 fw-medium">Got a great project idea? Or want to transform your business?
 Answer a few short questions and we'll get in touch with you!</p>
-        <button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Get Started</button>
-
+        <button class="btn btn-black btn-lg bg-black text-white fw-medium fs-3" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Get Started</button>
+</div>
       </div>
 
     </div>
   </div>
 </div>
 <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
-    <p class="text-black lead fw-semibold">
-" Kindly note that this form is only for submission of app development request for customers. In case you need to apply for a job please do not fill this form and email to us at <a href="mailto:">careers@macappstudio.com</a></p>
+    <p class="text-black lead fs-3 fw-medium">
+"Kindly note that this form is only for submission of app development request for customers". In case you need to apply for a job please do not fill this form and email to us at <a class="text-decoration-none border-bottom border-primary" href="mailto:">careers@jezhtechnologies.com</a></p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Start a Project</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-4" data-bs-target="#exampleModalToggle4" data-bs-toggle="modal">Start a Project</button>
 
       </div>
 
@@ -52,23 +56,24 @@ Answer a few short questions and we'll get in touch with you!</p>
 
 
 <div class="modal fade" id="exampleModalToggle4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel4" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
-    <p class="text-black fs-3 lead fw-bold">
-    First up, what is your name? *
+    <p class="text-black fs-2 lead fw-bold">
+    First up, what is your name? <span class="text-danger">*</span>
     <div class="mb-4 input-group-lg">
-  <input type="text" onChange={(e)=>{setname(e.target.value)}} class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="text" onChange={(e)=>{setname(e.target.value)}} class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none px-1 py-3" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">OK</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-5" data-bs-target="#exampleModalToggle5" data-bs-toggle="modal">OK</button>
 
       </div>
 
@@ -77,23 +82,24 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 <div class="modal fade" id="exampleModalToggle5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel5" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
-    <p class="text-black fs-3 lead fw-bold">
-    Great. Now what's your email ?
+    <p class="text-black fs-2 lead fw-bold">
+    Great. Now what's your email ? <span class="text-danger">*</span>
     <div class="mb-4 input-group-lg">
-  <input type="email" onChange={(e)=>{setmail(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="email" onChange={(e)=>{setmail(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none px-1 py-3" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal">OK</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-5" data-bs-target="#exampleModalToggle6" data-bs-toggle="modal">OK</button>
 
       </div>
 
@@ -102,23 +108,24 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 <div class="modal fade" id="exampleModalToggle6" aria-hidden="true" aria-labelledby="exampleModalToggleLabel6" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
-    <p class="text-black fs-3 lead fw-bold">
-    Super. Now what's your company name ?
+    <p class="text-black fs-2 lead fw-bold">
+    Super. Now what's your company name ? <span class="text-danger">*</span>
     <div class="mb-4 input-group-lg">
-  <input type="text" onChange={(e)=>{setcompany(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="text" onChange={(e)=>{setcompany(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none px-1 py-3" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle7" data-bs-toggle="modal">OK</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-5" data-bs-target="#exampleModalToggle7" data-bs-toggle="modal">OK</button>
 
       </div>
 
@@ -127,10 +134,11 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 <div class="modal fade" id="exampleModalToggle7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel7" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
@@ -146,15 +154,15 @@ Answer a few short questions and we'll get in touch with you!</p>
     <span class="input-group-addon">Tel</span>
   </div>
 </form>
-    <p class="text-black fs-3 lead fw-bold">
-    And your phone number (preferably with WhatsApp)?*
+    <p class="text-black fs-2 lead fw-bold">
+    And your phone number (preferably with WhatsApp)? <span class="text-danger">*</span>
     <div class="mb-4 input-group-lg">
   <input type="number" onChange={(e)=>{setphone(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle8" data-bs-toggle="modal">OK</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-3" data-bs-target="#exampleModalToggle8" data-bs-toggle="modal">OK</button>
 
       </div>
 
@@ -163,23 +171,24 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 <div class="modal fade" id="exampleModalToggle8" aria-hidden="true" aria-labelledby="exampleModalToggleLabel8" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
-    <p class="text-black fs-3 lead fw-bold">
-    Tell me one or two lines about your project?*
+    <p class="text-black fs-2 lead fw-bold">
+    Tell me one or two lines about your project? <span class="text-danger">*</span>
     <div class="mb-4 input-group-lg">
-  <input type="text" onChange={(e)=>{setdesc(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
+  <input type="text" onChange={(e)=>{setdesc(e.target.value)}}  class="form-control rounded-0 border border-top-0 border-start-0 border-end-0 border-bottom-5 border-black shadow-none px-1 py-3" id="exampleFormControlInput1" placeholder="Type your answer here..."/>
 </div>
     </p>
   </blockquote>
 </figure>
-<button class="btn btn-black btn-lg bg-black text-white" data-bs-target="#exampleModalToggle9" data-bs-toggle="modal">OK</button>
+<button class="btn btn-black btn-lg bg-black text-white fw-medium fs-5" data-bs-target="#exampleModalToggle9" data-bs-toggle="modal">OK</button>
 
       </div>
 
@@ -188,15 +197,16 @@ Answer a few short questions and we'll get in touch with you!</p>
 </div>
 
 <div class="modal fade" id="exampleModalToggle9" aria-hidden="true" aria-labelledby="exampleModalToggleLabel9" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
       <figure>
   <blockquote class="blockquote">
-    <p class="text-black fs-3 lead fw-bold">
+    <p class="text-black fs-2 lead fw-bold">
     What modules do you need for your project?*
     </p>
   </blockquote>
@@ -245,10 +255,11 @@ Type : ${type}
 </div>
 
 <div class="modal fade" id="exampleModalToggle10" aria-hidden="true" aria-labelledby="exampleModalToggleLabel10" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered modal-xl">
+  <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header border-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <h1><span class="nav-brand text-black">JEZH</span></h1>
+        <button type="button" class="btn-close rounded-circle border p-3 mx-2" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
   <div class="blockquote text-black text-center">

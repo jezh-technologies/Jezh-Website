@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Getproposal from '@/components/Getproposal'
 
 function Design() {
   return (
@@ -17,21 +18,21 @@ function Design() {
       
       <main className="px-lg-5 mx-lg-5 px-md-1 text-white ">
         <Navbar/>
+        <div class="container">
         <nav class="text-bg-transparent text-black bg-gradient bg-white rounded rounded-top-0 rounded-bottom-2">
   <ol class="breadcrumb p-3">
-    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold" href="#">Home</a></li>
-    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold" href="#">Services</a></li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="border border-top-0 border-start-0 border-end-0 border-secondary fw-bolder">Design</span></li>
+    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Home</a></li>
+    <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Services</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="border border-top-0 border-start-0 border-end-0 border-secondary fw-bolder fs-5">Design</span></li>
   </ol>
 </nav>
+</div>
         <section>
         <div class="container my-5">
     <div class="row align-items-center">
       <div class="col-lg-8">
         <h1 class="display-3 fw-bold lh-2 text-white mb-4">Unleash Your Creative Vision with Cutting-Edge Design Solutions</h1>
-        <button class="btn btn-light p-1 btn-lg fw-bolder mt-2"><span class="p-3">Get a Proposal</span><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right bg-dark text-white rounded-3 p-2 " viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-          </svg></button>
+        <Getproposal/>
 
         
       </div>
@@ -125,36 +126,6 @@ function Design() {
   
   <div class="card-body">
     <h3 class="card-title fw-bolder"> Poster Designing</h3>
-    <p class="card-text fs-5"> Experience the power of seamless collaboration with our design experts. Choose us for efficient teamwork and flawless execution.</p>
-  </div>
-</div>
-    </div>
-  </div>
-  <hr/>
-  <div class="row ">
-    <div class="col-sm">
-            <div class="card text-white bg-transparent border-0 rounded-0 mb-3">
-  
-  <div class="card-body ">
-    <h3 class="card-title fw-bolder">Seamless Collaboration</h3>
-    <p class="card-text fs-5"> Experience the power of seamless collaboration with our design experts. Choose us for efficient teamwork and flawless execution.</p>
-  </div>
-</div>
-    </div><div class="vr p-0"></div>
-    <div class="col-sm">
-            <div class="card text-white bg-transparent border-0 rounded-0 mb-3">
-  
-  <div class="card-body ">
-    <h3 class="card-title fw-bolder">Seamless Collaboration</h3>
-    <p class="card-text fs-5"> Experience the power of seamless collaboration with our design experts. Choose us for efficient teamwork and flawless execution.</p>
-  </div>
-</div>
-    </div><div class="vr p-0"></div>
-    <div class="col-sm">
-            <div class="card text-white bg-transparent border-0 rounded-0 mb-3">
-  
-  <div class="card-body ">
-    <h3 class="card-title fw-bolder">Seamless Collaboration</h3>
     <p class="card-text fs-5"> Experience the power of seamless collaboration with our design experts. Choose us for efficient teamwork and flawless execution.</p>
   </div>
 </div>
