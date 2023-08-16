@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <section className="{styles.navbar} animate__animated animate__slideInDown">
+    <section className="{styles.navbar}">
     <div class="container">
 
 
@@ -11,8 +11,8 @@ export default function Navbar() {
 
 
 
-    <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
-      <a class="navbar-brand fw-bolder fs-2" href="/">JEZH</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent border-bottom border-black">
+      <a class="navbar-brand fw-bolder fs-1" href="/">JEZH</a>
       <button class="navbar-toggler border-0 shadow-none outline-0 p-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-border-width text-white" viewBox="0 0 16 16">
 <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
@@ -30,7 +30,7 @@ export default function Navbar() {
 
 
 
-<a class="nav-link fw-bold text-white dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<a class="nav-link fw-bold text-black border border-gradient rounded-3 dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 Products
 </a>
 
@@ -258,8 +258,8 @@ Services
 
 
           </li> */}
-          <li class="nav-item px-2 mx-1 dropdown">
-            <a class="nav-link fw-bold text-white dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item px-2 mx-1 dropdown dropdown-center">
+            <a class="nav-link fw-bold text-black border border-gradient rounded-3 dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
             </a>
             <ul class="dropdown-menu rounded-4 p-2 bg-body">
@@ -294,13 +294,13 @@ Services
             </ul>
           </li>
           <li class="nav-item px-2 mx-1 dropdown">
-            <a class="nav-link fw-bold text-white dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link fw-bold text-black border border-gradient rounded-3 dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Company
             </a>
             <ul class="dropdown-menu rounded-4 p-2 bg-body mb-3">
             <div>
             <li>
-              <a href="/about" class="dropdown-item fw-bold rounded-2 fs-5">
+              <a href="/about" class="dropdown-item fw-bold rounded-3 text-black fs-5">
                 About Us 
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-up-right fw-bolder mb-1 ms-1" viewBox="0 0 16 16">
 <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
@@ -332,7 +332,7 @@ Services
 
         <ul class="navbar-nav mx-end">
           <li class="nav-item">
-            <a class="btn btn-light rounded-pill fw-bold px-4 fs-5" href="/contact">Contact</a>
+            <a class="fw-bold text-white rounded-3  px-3 py-2 fs-5 btn bg-black rounded-pill fw-bold px-4 fs-5" href="/contact">Contact</a>
           </li>
         </ul>
       </div>

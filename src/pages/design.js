@@ -18,8 +18,8 @@ function Design() {
       
       <main className="px-lg-5 mx-lg-5 px-md-1 text-white ">
         <Navbar/>
-        <div class="container">
-        <nav class="text-bg-transparent text-black bg-gradient bg-white rounded rounded-top-0 rounded-bottom-2">
+        <div class="container ">
+        <nav class="text-bg-transparent text-black bg-gradient bg-white rounded rounded-top-0 rounded-bottom-2 ">
   <ol class="breadcrumb p-3">
     <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Home</a></li>
     <li class="breadcrumb-item"><a class="text-decoration-none p-1 text-black fw-semibold fs-5" href="#">Services</a></li>

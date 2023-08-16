@@ -3,8 +3,11 @@
   src: url("../../public/MokotoGlitch.otf") format("opentype");
 }
 body{
-    background-image: linear-gradient(125deg, #030219, #170c54, #5615a9);
+    background-image: linear-gradient(
+      144deg, #53ab00, #86d00e 35%, #b3f11b 81%, #c7ff20);
   }
   .navbar-brand{
     font-family: mokoto;
+    color: black;
   }
+

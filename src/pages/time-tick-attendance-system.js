@@ -166,9 +166,9 @@ Manage a large group of workforces on a single page
 <section>
   <div class="container">
 <div class="accordion text-bg-transparent bg-gradient bg-transparent rounded-top-3" id="accordionPanelsStayOpenExample">
-  <div class="accordion-item text-bg-transparent bg-gradient bg-transparent">
+  <div class="accordion-item rounded-top-4 text-bg-transparent bg-gradient bg-transparent">
     <h2 class="accordion-header">
-      <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      <button class="accordion-button bg-white rounded-top-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
         Accordion Item #1
       </button>
     </h2>
