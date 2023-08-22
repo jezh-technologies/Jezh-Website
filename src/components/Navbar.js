@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <section className="{styles.navbar}">
-    <div class="container">
+    <div class="container-fluid">
 
 
 
@@ -11,16 +11,16 @@ export default function Navbar() {
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent border-bottom border-black">
-      <a class="navbar-brand fw-bolder fs-1" href="/">JEZH</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent border-bottom border-3 border-black">
+    <a class="navbar-brand fs-1" href="#">JEZH</a>
       <button class="navbar-toggler border-0 shadow-none outline-0 p-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-border-width text-white" viewBox="0 0 16 16">
+      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-border-width text-black" viewBox="0 0 16 16">
 <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
 </svg>
       
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav mx-auto border-black border-3 py-3 border-sm-top ">
           <li class="nav-item px-2 mx-1 dropdown">
 
 
@@ -30,7 +30,7 @@ export default function Navbar() {
 
 
 
-<a class="nav-link fw-bold text-black border border-gradient rounded-3 dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<a class="nav-link mx-sm-3 my-sm-1 fw-bold text-black border border-black border-3 rounded-pill dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
 Products
 </a>
 
@@ -258,12 +258,12 @@ Services
 
 
           </li> */}
-          <li class="nav-item px-2 mx-1 dropdown dropdown-center">
-            <a class="nav-link fw-bold text-black border border-gradient rounded-3 dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item px-2 mx-1 mx-sm-3 my-sm-1 dropdown dropdown-center">
+            <a class="nav-link fw-bold text-black border border-black border-3 rounded-pill dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
             </a>
-            <ul class="dropdown-menu rounded-4 p-2 bg-body">
-            <div>
+            <ul class="dropdown-menu rounded-4 p-2 mt-2">
+            <div className="bg-gradient">
             <li>
               <a href="/design" class="dropdown-item fw-bold rounded-2 fs-5">
                 Design
@@ -293,8 +293,8 @@ Services
             </div>
             </ul>
           </li>
-          <li class="nav-item px-2 mx-1 dropdown">
-            <a class="nav-link fw-bold text-black border border-gradient rounded-3 dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item px-2 mx-1 mx-sm-3 my-sm-1 dropdown">
+            <a class="nav-link fw-bold text-black border border-black border-3 rounded-pill dropdown-toggle px-3 fs-5 bg-gradient" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Company
             </a>
             <ul class="dropdown-menu rounded-4 p-2 bg-body mb-3">
@@ -331,8 +331,10 @@ Services
         </ul>
 
         <ul class="navbar-nav mx-end">
-          <li class="nav-item">
-            <a class="fw-bold text-white rounded-3  px-3 py-2 fs-5 btn bg-black rounded-pill fw-bold px-4 fs-5" href="/contact">Contact</a>
+          <li class="nav-item text-center mx-sm-3 my-sm-1">
+          <div class="d-grid">
+            <a class="fw-bold text-white rounded-3 py-2 fs-5 btn border border-black border-3 bg-black rounded-pill fw-bold px-4 fs-5" href="/contact">Contact</a>
+          </div>
           </li>
         </ul>
       </div>
