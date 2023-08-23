@@ -31,7 +31,8 @@ export default function Home() {
         <div class="container my-5 align-items-center">
     <div class="row align-items-center">
       <div class="col-lg-8">
-        <h1 class="display-2 fw-bold lh-1 text-black mb-4">Let's digitally transform your organization to next level</h1>
+        <h1 class="display-2 fw-bold lh-1 text-white mb-4">Let's digitally <a class="link-offset-1 link-dark link-underline-light link-underline-opacity-75
+        ">transform</a> your organization to next level</h1>
 
           <Getproposal/>
         
@@ -117,7 +118,7 @@ export default function Home() {
         <section>
         <div class="container-fluid text-center px-4 py-5" id="featured-3">
         <div class="alert text-center bg-gradient border-bottom-0 border-black border-2 rounded-bottom-0 rounded-top-5 text-black pt-4" role="alert">
-        <h1 class="fw-bold text-black fs-1 display-2 ms-1">Our mission is to make our clients succeed and sustain</h1>
+        <h1 class="fw-bold text-black display-5 px-2 ms-1">Our mission is to make our clients succeed and sustain</h1>
         <p class="text-black fw-semibold fs-5 text-center fw-bold fs-5 lead ms-1">
         At Jezh Technologies, we are not only committed to providing novel solutions but also to make our clients sustain and be among the elite in their domain.
         </p>
